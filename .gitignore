@@ -1,0 +1,16 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Executables
+*.exe
+
+# Git LFS metadata
+.gitattributes
