@@ -1,0 +1,50 @@
+{
+  "name": "rbs--desktop",
+  "version": "1.0.0",
+  "description": "This is RBS(Restaurant Booking System) project \r checking hello",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "electron .",
+    "tailwind:init": "tailwindcss init -p",
+    "check:deps": "node scripts/check-deps.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrinivasProjects/RBS--desktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SrinivasProjects/RBS--desktop/issues"
+  },
+  "homepage": "https://github.com/SrinivasProjects/RBS--desktop#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "axios": "^1.13.6",
+    "better-sqlite3": "^12.6.2",
+    "electron": "^40.8.0",
+    "electron-vite": "^5.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1",
+    "vite": "^7.3.1",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.4.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "electron-builder": "^26.8.1",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.3"
+  }
+}
